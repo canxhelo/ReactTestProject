@@ -1,0 +1,15 @@
+.chat-sidebar{
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+
+@media (max-width: 768px) {
+    .chat-sidebar {
+        flex-basis: 50%;
+      overflow-y: auto;
+    }
+  }

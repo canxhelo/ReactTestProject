@@ -1,0 +1,17 @@
+
+.notifications {
+    width: 15%;  /* Adjust as needed */
+    background-color: #f8f8f8;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .notifications {
+        width: 100%;
+        height: 150px;
+        overflow-y: auto;
+    }
+  }
+  
